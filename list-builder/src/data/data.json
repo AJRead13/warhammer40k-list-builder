@@ -1,0 +1,908 @@
+{
+    "army_factions": [
+      {
+        "faction_name": "Adepta Sororitas",
+        "units": [
+          {
+            "unit_name": "Aestred Thurga and Agathae Dolan",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 70
+          },
+          {
+            "unit_name": "Arco-flagellants",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": [45, 150]
+          },
+          {
+            "unit_name": "Battle Sister Squad",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 110
+          },
+          {
+            "unit_name": "Canoness",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 60
+          },
+          {
+            "unit_name": "Castigator",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 150
+          },
+          {
+            "unit_name": "Celestian Sacresants",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": [65, 130]
+          },
+          {
+            "unit_name": "Crusaders",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": [20, 40, 60]
+          },
+          {
+            "unit_name": "Unit 1",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 1",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 1",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 1",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 1",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 1",
+            "ranged_weapons": {
+                "Bolter": [{"range": 24},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties":["Rapid Fire 1"]}],
+                "Bolt Pistol": [{"range": 12},{"strength": 4},{"AP": 0},{"Damage": 1},{"Properties": ["Pistol"]}]
+            },
+            "melee_weapons": {
+                "chainsword": [{"Strength": 4},{"AP": -1},{"Damange": 1},{"Properties": ["Sustained Hits 1"]},{}]
+            },
+            "stats": {
+              "movement": 6,
+              "toughness": 3,
+              "save": "3+",
+              "wounds": 1,
+              "leadership": "6+",
+              "objective_control": 1,
+              "invulnerable_save": ""
+            },
+            "abilities": [{"AbilityName": "Ability Description"},{}],
+            "points": 100
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Adeptus Custodes",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 120
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 180
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Adeptus Mechanicus",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Aeldari",
+        "units": [
+          {
+            "unit_name": "Asurmen",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 120
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Agents of the Imperium",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Astra Militarum",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Black Templars",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Blood Angels",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Chaos Daemons",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Chaos Knights",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Chaos Space Marines",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Dark Angels",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Death Guard",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Deathwatch",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Drukhari",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Genestealer Cults",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Grey Knights",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Imperial Knights",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Leagues of Votann",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Necrons",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Orks",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Space Marines",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Space Wolves",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "T'au Empire",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Thousand Sons",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "Tyranids",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      },
+      {
+        "faction_name": "World Eaters",
+        "units": [
+          {
+            "unit_name": "Unit 1",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 100
+          },
+          {
+            "unit_name": "Unit 2",
+            "stats": {
+              "stat1": "value1",
+              "stat2": "value2",
+              "stat3": "value3"
+            },
+            "points": 150
+          }
+
+        ]
+      }
+    ]
+  }
+  
